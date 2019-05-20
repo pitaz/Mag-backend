@@ -1,0 +1,43 @@
+{
+  "name": "mag-backend",
+  "version": "1.0.0",
+  "description": "APIs for magazine application",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "node index.js",
+    "start:dev": "nodemon --exec babel-node index.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitaz/Mag-backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "pitaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitaz/Mag-backend/issues"
+  },
+  "homepage": "https://github.com/pitaz/Mag-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "express-validator": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "nodemon": "^1.19.0"
+  }
+}
