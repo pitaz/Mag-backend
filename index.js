@@ -1,5 +1,7 @@
-
+// Express library
 import express from 'express';
+
+// Third-party libraries
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
